@@ -31,12 +31,11 @@ This project demonstrates the integration of modern AI (Google Gemini LLM) with 
   - 10% stop-loss triggers
   - Trend filters (20/50-day MA crossover)
   - Volatility-adjusted sizing
-  - 1.5x maximum leverage
 
 ### 3. Hyperparameter Optimization (Part 3)
 - Grid search across **25 parameter combinations**
 - Optimized sentiment vs. momentum weights
-- Improved Sharpe ratio from 2.1 → 3.2
+- Improved Sharpe ratio
 
 ## 🚀 Quick Start
 
@@ -100,7 +99,6 @@ Combined Score = 0.30 × Sentiment + 0.45 × Momentum(5d) + 0.25 × Momentum(20d
 1. **Stop Loss**: Exit at -10% drawdown from recent peak
 2. **Trend Filter**: Reduce positions 70% in downtrends
 3. **Volatility Scaling**: Adjust sizing for constant risk
-4. **Leverage Limit**: Maximum 1.5x exposure
 
 ## 📊 Key Findings
 
